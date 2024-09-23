@@ -1,0 +1,30 @@
+start = xml
+xml = element xml {metadata, stamp, heading, poem, footer}
+metadata = element metadata {header, title, author, date}
+author = element author {text}
+header = element header {title, author, date}
+title = element title {text}
+stamp = element stamp {info, text}
+info = attribute info {text}
+heading = element heading {title, ln, author}
+poem = element poem {ln, context, content}
+content = element content {text}
+ln = element ln {text, mixed{num, rhyme}
+context = element context {mixed{(type | tag | name)*}}
+num = attribute num {xsd:integer}
+rhyme = attribute rhyme {text}
+type = attribute type {text}
+tag = attribute tag {text}
+name = attribute name {text}
+footer = element footer {signature, status, location, line, date}
+signature = element signature {overlay, text}
+overlay = attribute overlay {text}
+status = element status {text}
+location = element location {line, text}
+date = element date {xsd:date}
+line = element line {text}
+
+
+
+
+
