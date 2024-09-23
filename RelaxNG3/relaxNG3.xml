@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="relaxNG3.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+<heading>
+    <title>End of Summer</title>
+<line>By</line> 
+    <author>Stanley Kunitz</author>
+</heading>
+<poem>
+    <stanza num="1">
+    <ln num="1" rhy="a">An agitation of the air,</ln>
+<ln num="2" rhy="b">A perturbation of the light</ln>
+<ln num="3" rhy="c">Admonished me the unloved year</ln>
+<ln num="4" rhy="b">Would turn on its hinge that night.</ln>
+</stanza>
+
+<stanza num="2">
+    <ln num="5" rhy="a">I stood in the disenchanted field</ln>
+<ln num="6" rhy="b">Amid the stubble and the stones,</ln>
+<ln num="7" rhy="c">Amazed, while a small worm lisped to me</ln>
+<ln num="8" rhy="b">The song of my marrow-bones.</ln>
+</stanza>
+
+<stanza num="3">
+    <ln num="9" rhy="a">Blue poured into summer blue,</ln>
+<ln num="10" rhy="b">A hawk broke from his cloudless tower,</ln>
+<ln num="11" rhy="a">The roof of the silo blazed, and I knew</ln>
+<ln num="12" rhy="c">That part of my life was over.</ln>
+</stanza>
+
+<stanza num="4">
+    <ln num="13" rhy="a">Already the iron door of the north</ln>
+<ln num="14" rhy="b">Clangs open: birds, leaves, snows</ln>
+<ln num="15" rhy="a">Order their populations forth,</ln>
+<ln num="16" rhy="b">And a cruel wind blows.</ln>
+</stanza>
+</poem>
+
+<footer>
+    <source>The Collected Poems of <author>Stanley Kunitz</author> <company>W. W. Norton and Company, Inc.,</company> <date>2002</date></source>
+</footer>
+</xml>

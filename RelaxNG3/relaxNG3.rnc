@@ -1,0 +1,17 @@
+start= xml
+xml = element xml {heading, poem, footer}
+heading = element heading {mixed{(title, line, author)}}
+title = element title {text}
+author = element author {text}
+line = element line {text}
+poem = element poem {stanza+}
+stanza = element stanza {mixed{(ln+, num)}}
+ln = element ln {mixed{(num, rhy)}, text}
+num = attribute num {xsd:integer}
+rhy = attribute rhy {text}
+footer = element footer {source}
+source = element source {text, mixed{(author, company, date)}}
+company = element company {text}
+date = element date {xsd:gYear}
+
+
