@@ -3,12 +3,16 @@
 <?xml-model href="Allgeier_9-22-24.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <!-- something I added to my XML markup was indicating the rhyme patterns in certain lines of the poem. I also numbered the lines so it would be easier to follow. "Num"= number.-->
-    <metadata><header><title>"Ballad of Booker T.,"</title> by <author>Langston Hughes</author>, <date>June 1,
+    <metadata>
+        <header><title>"Ballad of Booker T.,"</title> by <author>Langston Hughes</author>, <date when="1941-06-01">June 1,
             1941</date></header>
-    <stamp info="A Library of Congress official stamp is found between lines 5-9" shape="circular" color="red">The Library of Congress</stamp></metadata>
-    <heading><title>BALLAD OF BOOKER T.</title>
+    <stamp info="A Library of Congress official stamp is found between lines 5-9" shape="circular" color="red">The Library of Congress</stamp>
+    </metadata>
+    <heading>
+        <title>BALLAD OF BOOKER T.</title>
     <ln>by</ln>
-    <author>Langston Hughes</author></heading>
+    <author>Langston Hughes</author>
+    </heading>
     <poem><ln num="1">
         <context type="person" tag="Booker T. Washington">Booker T.</context>
     </ln> 
@@ -16,10 +20,10 @@
     <ln num="3">He said, Till the soil</ln>
     <ln num="4" rhyme="a">And learn from the land.</ln>
     <ln num="5">Let down your bucket</ln>
-    <ln num="6" rhy="b">Where you are.</ln>
+    <ln num="6" rhyme="b">Where you are.</ln>
     <ln num="7">Your fate is here</ln>
     <stamp content="A Library of Congress official stamp">The Library of Congress</stamp>
-    <ln num="8" rhy="b">And not afar.</ln>
+    <ln num="8" rhyme="b">And not afar.</ln>
     <ln num="9">To help yourself</ln>
     <ln num="10" rhyme="a">And your fellow man,</ln>
     <ln num="11">Train your head,</ln>
@@ -65,8 +69,10 @@
     <footer>
         <signature overlay="yes">LANGSTON HUGHES</signature>
         <status>Final Draft,</status>
-        <location><line>Hollow Hills Farm,</line>
-            <line>Monterey, California</line>,</location>
-        <date>June 1, 1941.</date>
+        <location>
+            <line>Hollow Hills Farm,</line>
+            <line>Monterey, California</line>,
+        </location>
+        <date when="1941-06-01">June 1, 1941</date>
     </footer>
 </xml>
